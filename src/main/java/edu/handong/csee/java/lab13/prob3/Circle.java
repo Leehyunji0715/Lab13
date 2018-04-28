@@ -12,9 +12,11 @@ public class Circle extends ShapeInfo{
 		return 2*Math.PI*mRadius;
 	}
 
-	void askInfo() {
+	void askInfoAndCalculate() {
 		System.out.println("Enter radius : ");
-		mRadius = input.nextInt();
+		mRadius = input.nextDouble();
+		super.mPerimeter = perimeter();
+		super.mArea = area();
 	}
 
 }

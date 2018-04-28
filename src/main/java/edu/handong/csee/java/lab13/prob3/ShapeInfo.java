@@ -4,6 +4,7 @@ public abstract class ShapeInfo {
 	double mArea,mPerimeter;
 	abstract double area();
 	abstract double perimeter();
+	abstract void askInfoAndCalculate();
 	public void display() {
 		System.out.println("Area : "+mArea);
 		System.out.println("Perimeter : "+mPerimeter);
