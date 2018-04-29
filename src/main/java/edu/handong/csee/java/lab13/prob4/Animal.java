@@ -1,10 +1,10 @@
 package edu.handong.csee.java.lab13.prob4;
 
-public class Animal {
-	String mName;
+public class Animal {//public modifier class named Animal
+	String mName;//call String class type named mName
 	
-	void petStatus() {
-		System.out.println("Name : "+mName);
+	public void petStatus() {//public modifier method named petStatus and returns nothing
+		System.out.println("Name : "+mName);//print out name
 	}
 	
 }
