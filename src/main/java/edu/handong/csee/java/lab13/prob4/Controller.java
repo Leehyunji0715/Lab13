@@ -1,5 +1,5 @@
 package edu.handong.csee.java.lab13.prob4;
-import java.util.Scanner;//import this to use Scanner class
+import java.util.Scanner;//import this to use Scanner package
 public class Controller {
 	
 	public static void main(String[] args) {//call main method
